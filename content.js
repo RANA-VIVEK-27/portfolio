@@ -6,8 +6,8 @@
 const SITE_CONTENT = {
     // SEO & Meta
     seo: {
-        title: "Rana Vivek | Python Developer",
-        description: "Portfolio of Rana Vivek, Python/Backend Developer and FastAPI Engineer."
+        title: "Rana Vivek | Python & Backend Developer",
+        description: "Portfolio of Rana Vivek, Python/Backend Developer and FastAPI Specialist."
     },
 
     // Hero Section
@@ -15,47 +15,47 @@ const SITE_CONTENT = {
         photoUrl: "assets/hero_illustration.png", // Image for the right side of the hero section
         greeting: "Hello, I am",
         name: "Rana Vivek",
-        roles: ["Python Developer", "Backend Developer", "FastAPI Engineer"],
-        description: "B.Voc IT student and Junior Developer passionate about building robust backend logic, REST APIs, and production-ready web applications.",
+        roles: ["Python Developer", "Backend Developer", "FastAPI Specialist"],
+        description: "Motivated B.Voc IT student and aspiring Python / Backend Developer with experience in web development. Passionate about building scalable backend systems.",
         resumeLink: "#" // Replace with actual resume link (e.g., "resume.pdf")
     },
 
     // About Section
     about: {
         photoUrl: "vivek_rana.JPG", // Add your image file name here (e.g., "profile.jpg"). Leave empty to show initials.
-        title: "Turning ideas into functional, real-world solutions.",
+        title: "Building scalable backend systems and robust web applications.",
         paragraphs: [
-            "I am a B.Voc Information Technology student currently pursuing my degree at Bhagwan Mahavir University in Surat. With over a year of internship experience, I've dived deep into the world of web and backend development.",
-            "My expertise lies in Python and FastAPI, creating scalable REST APIs, managing databases, and setting up deployment workflows. I also have hands-on experience customizing WordPress and Shopify sites for real clients.",
-            "Whether it's building an AI-powered chatbot using LangChain and Jina AI or creating a robust e-commerce backend, I love solving complex problems and continuously learning new technologies."
+            "I am an aspiring Python and Backend Developer currently pursuing a B.Voc in Information Technology at Bhagwan Mahavir University in Surat. I have over a year of internship experience at Softrica, working on real client-facing production websites.",
+            "My technical expertise centers around Python, FastAPI, and REST API development. I have hands-on experience orchestrating AI pipelines using LangChain and Jina AI, as well as customizing WordPress and Shopify sites for various industries.",
+            "I am passionate about learning modern technologies and transitioning into a professional backend engineering role where I can build impactful, scalable systems."
         ],
         stats: [
             { value: "1+", label: "Years Experience" },
-            { value: "20+", label: "Projects Completed" }
+            { value: "20+", label: "Live Projects" }
         ]
     },
 
     // Skills Section
     skills: [
         {
-            category: "Backend & DB",
-            icon: "fas fa-server",
-            tags: ["Python", "FastAPI", "REST API", "SQL", "RDBMS", "Backend Logic"]
+            category: "Languages & DB",
+            icon: "fas fa-code",
+            tags: ["Python", "JavaScript", "SQL", "RDBMS", "HTML", "CSS"]
         },
         {
-            category: "Web Dev",
-            icon: "fas fa-globe",
-            tags: ["HTML5", "CSS3", "JavaScript", "WordPress", "Shopify"]
+            category: "Frameworks & Tools",
+            icon: "fas fa-layer-group",
+            tags: ["FastAPI", "LangChain", "Streamlit", "Git & GitHub", "Deployment", "Debugging"]
         },
         {
             category: "AI & ML",
             icon: "fas fa-robot",
-            tags: ["LangChain", "RAG Architecture", "Jina AI", "Streamlit"]
+            tags: ["RAG Architecture", "Jina AI Embeddings", "Vector Storage", "Semantic Search"]
         },
         {
-            category: "Tools & Others",
-            icon: "fas fa-tools",
-            tags: ["Git & GitHub", "CLI Development", "Deployment", "Debugging"]
+            category: "CMS & E-commerce",
+            icon: "fas fa-shopping-cart",
+            tags: ["WordPress", "Shopify", "Web Development"]
         }
     ],
 
@@ -64,14 +64,13 @@ const SITE_CONTENT = {
         {
             role: "Web Developer Intern",
             company: "Softrica",
-            location: "Surat, Gujarat",
+            location: "Gujarat, India",
             date: "Feb 2025 – Present",
             points: [
-                "Worked on live production websites for real clients.",
-                "Built robust backend logic and REST APIs using Python and FastAPI.",
-                "Customized and maintained WordPress and Shopify websites.",
-                "Handled deployment workflows, active debugging, and system maintenance.",
-                "Utilized Git & GitHub for effective version control and team collaboration."
+                "Developed and customized 20+ live production WordPress and Shopify websites for real clients across various industries.",
+                "Managed deployment workflows, performed active debugging, and maintained website stability.",
+                "Collaborated directly with clients and internal teams, managing the real-world project lifecycle.",
+                "Contributed to notable projects including Gurukripa Hotel, Jisha Enterprise, and NeoStack."
             ]
         }
     ],
@@ -84,27 +83,17 @@ const SITE_CONTENT = {
             fullName: "RAG-Based AI Chatbot",
             imageUrl: "assets/project_ai.png", // Custom generated project thumbnail
             tech: ["FastAPI", "LangChain", "Jina AI", "Streamlit"],
-            description: "AI-powered chatbot using Retrieval-Augmented Generation. Features a FastAPI backend, Streamlit UI, LangChain orchestration, and Jina AI embeddings.",
+            description: "Independently built an AI-powered chatbot using RAG architecture from scratch. Developed the backend API with FastAPI, integrated Jina AI embeddings for semantic search, and designed the UI with Streamlit.",
             githubUrl: "#", // Replace with actual link
             liveUrl: ""     // Leave empty if there's no live link
-        },
-        {
-            filter: "python",
-            shortName: "CLI Product Manager",
-            fullName: "Product Manager CLI App",
-            imageUrl: "assets/project_cli.png", // Custom generated project thumbnail
-            tech: ["Python", "CLI", "File I/O"],
-            description: "Command-line app with user authentication, product management, purchasing system, and detailed daily/monthly/yearly sales tracking capabilities.",
-            githubUrl: "#",
-            liveUrl: ""
         },
         {
             filter: "python",
             shortName: "Budget Tracker",
             fullName: "Personal Budget Tracker",
             imageUrl: "assets/project_budget.png", // Custom generated project thumbnail
-            tech: ["Python", "CLI"],
-            description: "Python CLI application to log, categorize, and analyze personal income and expenses, complete with comprehensive financial summary reports.",
+            tech: ["Python", "CLI", "File I/O"],
+            description: "Built a Python command-line tool to log, categorize, and track personal expenses and savings over time. Generates financial summaries and insights using structured file-based data handling.",
             githubUrl: "#",
             liveUrl: ""
         }
@@ -129,18 +118,18 @@ const SITE_CONTENT = {
     // Education Section
     education: [
         {
-            year: "2024 – 2027 (Ongoing)",
-            degree: "B.Voc — Information Technology",
+            year: "2024 – 2027",
+            degree: "B.Voc in Information Technology",
             school: "Bhagwan Mahavir University, Surat"
         },
         {
-            year: "2021 – 2022",
-            degree: "HSC 12th Grade (82%)",
+            year: "2024",
+            degree: "HSC – 12th Grade (82%)",
             school: "Shree Uttar Gujarat School"
         },
         {
-            year: "2023 – 2024",
-            degree: "SSC 10th Grade (75%)",
+            year: "2022",
+            degree: "SSC – 10th Grade (75%)",
             school: "Shree Uttar Gujarat School"
         }
     ],
