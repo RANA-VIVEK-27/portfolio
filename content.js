@@ -44,7 +44,7 @@ const SITE_CONTENT = {
         {
             category: "Frameworks & Tools",
             icon: "fas fa-layer-group",
-            tags: ["FastAPI", "LangChain", "Streamlit", "Git & GitHub", "Deployment", "Debugging"]
+            tags: ["FastAPI", "LangChain", "Streamlit", "Git & GitHub"]
         },
         {
             category: "AI & ML",
@@ -55,6 +55,11 @@ const SITE_CONTENT = {
             category: "CMS & E-commerce",
             icon: "fas fa-shopping-cart",
             tags: ["WordPress", "Shopify", "Web Development"]
+        },
+        {
+            category: "Soft Skills",
+            icon: "fas fa-brain",
+            tags: ["Deployment", "Debugging"]
         }
     ],
 
