@@ -17,7 +17,7 @@ const SITE_CONTENT = {
         name: "Rana Vivek",
         roles: ["Python Developer", "Backend Developer", "FastAPI Specialist"],
         description: "Motivated B.Voc IT student and aspiring Python / Backend Developer with experience in web development. Passionate about building scalable backend systems.",
-        resumeLink: "#" // Replace with actual resume link (e.g., "resume.pdf")
+        resumeLink: "Rana_Vivek_Resume_ATS.pdf" // Replace with actual resume link (e.g., "resume.pdf")
     },
 
     // About Section
