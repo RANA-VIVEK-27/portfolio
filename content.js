@@ -18,6 +18,7 @@ const SITE_CONTENT = {
         roles: ["Python Developer", "Backend Developer", "FastAPI Specialist"],
         description: "Motivated B.Voc IT student and aspiring Python / Backend Developer with experience in web development. Passionate about building scalable backend systems.",
         resumeLink: "https://github.com/RANA-VIVEK-27/portfolio/blob/main/Rana_Vivek_Resume_ATS.pdf" // resume link
+    },
 
     // About Section
     about: {
